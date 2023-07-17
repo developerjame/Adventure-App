@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+h1{
+  color: white;
+  
+}
+.auth-form-container, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+}
+.auth-form-container{
+  padding: 10%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10%;
+  margin-top: 1rem;
+  background-image: linear-gradient(79deg, #fcfced, #504c4f 48%, #000);
+}
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.input-field{
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+
+}
+h3{
+  color: #1f98f4;
+  margin-bottom: 5rem;
+  font-size: 40px;
+}
+.input-field input{
+  margin: 0rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  border: hidden;
+  outline: none;
+}
+.input-field i{
+  cursor: pointer;
+}
+button{
+  border: none;
+  background-color: rgb(78, 146, 72);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 100%;
+}
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+.valid{
+  display: none;
+}
+.invalid{
+  color: red;
+}
+.about{
+  color: #000;
+}
+.about h1{
+  font-size: 50px;
+  color: #1f98f4;
+}
+.about-us{
+  margin-top: 30px;
+  background-color: #574f4f;
+  height: 1000px;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.img{
+  height: 150px;
+}
+.about-us p{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+.about-us h2{
+  font-size:3ch;
+  margin-bottom: 30px;
+}
+.cards__container{
+  background-color: #fff;
+}
+.btn{
+  background-color: transparent;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+}
