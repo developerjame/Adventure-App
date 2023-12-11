@@ -59,6 +59,7 @@ export default function SignUp(props){
 
     
     return( 
+        <center>
         <div className="auth-form-container">
             {Object.keys(formErrors).length === 0 && isSubmit ? (
             <div className="ui message success">{alert('Submitted Successfully')}</div>) : (
@@ -133,5 +134,6 @@ export default function SignUp(props){
             <button>SUBMIT</button>
         </form>
     </div>
+    </center>
     )
 }

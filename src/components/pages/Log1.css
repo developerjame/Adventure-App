@@ -16,6 +16,7 @@ h1{
   flex-direction: column;
 }
 .auth-form-container{
+  max-width: 800px;
   padding: 10%;
   padding-top: 1rem;
   padding-bottom: 1rem;
