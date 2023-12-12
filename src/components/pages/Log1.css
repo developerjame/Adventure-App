@@ -78,7 +78,7 @@ button{
   display: none;
 }
 .invalid{
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .about{
   color: #000;

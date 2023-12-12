@@ -73,7 +73,7 @@ export default function SignUp(props){
                    name="fullname" 
                    value={formValues.fullname} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.fullname }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.fullname }</p>
             <label for="phone">Phone</label>
             <input type="number" 
                    placeholder="Enter your phone" 
@@ -81,7 +81,7 @@ export default function SignUp(props){
                    name="phone" 
                    value={formValues.phone} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.phone }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.phone }</p>
             <label for="email">email</label>
             <input type="email" 
                    placeholder="youremail@gmail.com" 
@@ -89,7 +89,7 @@ export default function SignUp(props){
                    name="email" 
                    value={formValues.email} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.email }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.email }</p>
             <label for="address">Address</label>
             <input type="text" 
                    placeholder="Enter your address" 
@@ -97,7 +97,7 @@ export default function SignUp(props){
                    name="address" 
                    value={formValues.address} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.address }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.address }</p>
             <label for="where">Where to</label>
             <input type="text" 
                    placeholder="Place you want to visit" 
@@ -105,7 +105,7 @@ export default function SignUp(props){
                    name="where" 
                    value={formValues.where} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.where }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.where }</p>
             <label for="guest">How Many Guests</label>
             <input type="text" 
                    placeholder="Number of guest" 
@@ -113,7 +113,7 @@ export default function SignUp(props){
                    name="guest" 
                    value={formValues.guest} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.guest }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.guest }</p>
             <label for="arrivals">Arrivals</label>
             <input type="date" 
                    placeholder="dd-mm-yyyy" 
@@ -121,7 +121,7 @@ export default function SignUp(props){
                    name="arrivals" 
                    value={formValues.arrivals} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.arrivals }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.arrivals }</p>
             <label for="leaving">Leaving</label>
             <input type="date" 
                    placeholder="dd-mm-yyyy" 
@@ -129,7 +129,7 @@ export default function SignUp(props){
                    name="leaving" 
                    value={formValues.leaving} 
                    onChange={handleChange}/>
-            <p style={{color: 'red'}}>{ formErrors.leaving }</p>
+            <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.leaving }</p>
           
             <button>SUBMIT</button>
         </form>
