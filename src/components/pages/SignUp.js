@@ -75,7 +75,7 @@ export default function SignUp(props){
                    onChange={handleChange}/>
             <p style={{color: 'rgb(252, 70, 70)'}}>{ formErrors.fullname }</p>
             <label for="phone">Phone</label>
-            <input type="number" 
+            <input type="text" 
                    placeholder="Enter your phone" 
                    id="phone" 
                    name="phone" 
