@@ -8,8 +8,8 @@ export default function Video1() {
             <ReactPlayer
             className='react-player fixed-bottom'
             url= 'videos/demo_video.MP4'
-            width='100%'
-            height='100%'
+            width='70'
+            height='70'
             controls = {true}
 
             />

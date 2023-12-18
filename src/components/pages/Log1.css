@@ -124,3 +124,8 @@ button{
   background-color: #000;
   color: #fff;
 }
+.player-wrapper{
+  width: 50%;
+  height: 50%;
+  background-color: #1f98f4;
+}
